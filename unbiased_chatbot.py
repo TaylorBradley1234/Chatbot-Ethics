@@ -20,7 +20,7 @@ bot = ChatBot(
 
 trainer = ChatterBotCorpusTrainer(bot)
 
-trainer.train('chatterbot.corpus.english', 'chatterbot.corpus.custom.orientation_bias')
+trainer.train('chatterbot.corpus.english')
 
 while True:
     try:
